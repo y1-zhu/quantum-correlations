@@ -1,0 +1,5 @@
+-Each file contains a polytope (inner or outer), the name indicates the paramters (group or other origin of the polytope,dimension - d,number of vectors - L,some unique ID).
+
+-Load to julia by
+using JLD
+allProjections= load(FileName,"allProjections");
